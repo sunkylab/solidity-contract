@@ -1,0 +1,36 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "wallet",
+  "sourceName": "contracts/wallet.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getWalletValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "incrementWalletValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060ac8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063190ab64f146037578063b0f4d62514603f575b600080fd5b603d605b565b005b6045606d565b6040518082815260200191505060405180910390f35b60016000808282540192505081905550565b6000805490509056fea2646970667358221220c6e2933b48cb66577356c96c71fcd86f5a44d54e5b1220e42aa88ccd9e3e137964736f6c63430007030033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063190ab64f146037578063b0f4d62514603f575b600080fd5b603d605b565b005b6045606d565b6040518082815260200191505060405180910390f35b60016000808282540192505081905550565b6000805490509056fea2646970667358221220c6e2933b48cb66577356c96c71fcd86f5a44d54e5b1220e42aa88ccd9e3e137964736f6c63430007030033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
